@@ -1,0 +1,10 @@
+orders_cleaned: ./datasets/orders_with_no_repetition_32M_2022_12_6.csv
+instacart_orders: ./datasets/order_products__prior_sample.csv
+transformed_orders: ./datasets/orders_binary_2022_12_6.csv
+fp_growth_data: ./datasets/fpgrowth_result_2022_12_6_support0.0015.pkl
+association_rules_data: ./datasets/association_rules_product_based_2022_12_6_Sup0.0015_Lift2.5.csv
+
+# Parameters
+MIN_SP: 0.0015 # Minimum fp growth support
+MIN_TH: 2.5  # Minimum association rules threshold
+NUM_BATCHES: 10 # Number of batches to split the data for transformation to fit within the allocated memory 

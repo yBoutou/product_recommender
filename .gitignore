@@ -1,0 +1,6 @@
+mlruns/
+scratch.py
+notebooks/
+datasets/backup/
+__pycache__/
+.DS_Store
